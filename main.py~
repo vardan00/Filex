@@ -1,0 +1,7 @@
+import os
+from flask import *
+
+app = Flask(_name_)
+
+@app.route("/", methods=['GET', 'POST'])
+def start():
